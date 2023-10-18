@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Ubuntu:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Add box-sizing to include padding and border in element width */
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-color: red;
+    width: 10vw;
+    font-family: 'Roboto Slab', serif;
+    height: 100vh;
+    padding: 20px; /* Add padding to the sidebar */
+}
+
+.sidebar nav ul {
+    list-style: none;
+}
+
+.sidebar nav ul li {
+    font-size: 20px;
+    padding: 10px; /* Adjust padding to make it smaller */
+}
+
+.main {
+    background-color: yellow;
+    flex: 1; /* Allow the main content to expand to fill the remaining space */
+    padding: 20px; /* Add padding to the main content area */
+}
+.infocontainer {
+    background-color: yellowgreen;
+    Height:56vh;
+    padding: 20px; /* Add padding for spacing inside the container */
+    width: 80%; /* Set width to a percentage value for responsiveness */
+    margin: 73px;
+}
